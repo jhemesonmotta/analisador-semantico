@@ -1,5 +1,5 @@
-import { Tree, Node } from './classes/tree'
-
+import { Tree } from './classes/tree'
+import { Node } from './classes/node'
 
 var arvore = new Tree()
 
