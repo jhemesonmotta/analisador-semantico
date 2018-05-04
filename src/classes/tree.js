@@ -1,7 +1,8 @@
-import { eh_numero } from './utils.js'
+import { result } from './result.ts'
+
 class Tree {
     constructor() {
-        this.raiz = new Node('expressions');
+        this.raiz = new Node('expressions')
     }
 }
 
@@ -22,32 +23,14 @@ class Node {
       result = this.direito.visitInOrdem(result)
     }
     if (this.info) {
-      result = result + this.info + " ";
+      result = result + this.info + " "
     }
     return result
-
   }
 
-  getResult(result = '') {
-    if (this.esquerdo) {
-      result = this.esquerdo.getResult(result)
-    }
-    if (this.centro) {
-      result = this.centro.getResult(result)
-    }
-    if (this.direito) {
-      result = this.direito.getResult(result)
-    }
-    if (this.info) {
-      if(eh_numero(this.info)){
-        result += this.info
-      }
-      result = result + this.info + " ";
-    }
-    return result
-
+  getResult() {
+    return result(this)
   }
-
 }
 
 export { Tree, Node }

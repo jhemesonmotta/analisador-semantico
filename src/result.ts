@@ -45,3 +45,5 @@ function result(node){
   // false significa que é uma operação inválida
   return false;
 }
+
+export { result }

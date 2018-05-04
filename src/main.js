@@ -18,5 +18,6 @@ arvore.raiz.esquerdo.direito.centro.centro = 2
 arvore.raiz.direito = new Node('EOF')
 
 console.log(arvore)
+console.log(arvore.raiz.getResult())
 // console.log(arvore.raiz)
 // console.log(arvore.raiz.visitInOrdem())
