@@ -1,7 +1,7 @@
 import { eh_numero } from './utils.js'
 class Tree {
     constructor() {
-        this.raiz = new Node('e');
+        this.raiz = new Node('expressions');
     }
 }
 
