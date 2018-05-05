@@ -32,7 +32,7 @@
     "tdd",
     "library"
   ],
-  "author": "Alexandre Kavalerski <kavalerskialexandre@gmail.com>",
+  "author": "Alexandre Kavalerski <kavalerskialexandre@gmail.com>, Ian Macedo <ianmaiscedo@gmail.com>, Jhemeson Motta <jhemesonmotta@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jhemesonmotta/analisador-semantico/issues"

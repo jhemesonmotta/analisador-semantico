@@ -1,4 +1,3 @@
-import { result } from './result.ts'
 import { Node } from './node.js'
 
 class Tree {
